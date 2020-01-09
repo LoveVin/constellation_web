@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="js/index.js"></script>
+
+</head>
+<body onload="test()">
+    <header>
+        <img src="images/topp.gif" id="topp">
+        <div id="div0">
+            <ul id="ul01">
+                <li id="li01"><a>星座了解</a>
+                    <ul id="ula11">
+                        <li><a href="a01.html">起源与意义</a></li>
+                        <li><a href="12.html">12星座</a></li>
+                    </ul></li>
+                </li>
+                <li><a id="a02" href="a02.html">操作指南</a></li>
+                <li><a id="a03" href="a03.html">关于小屋</a></li>
+                <li><a id="a04" href="denglu.html">注册/登录</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div id="div1">
+           <p id="p1">你来自哪座星球呢？</p>
+           <form id="myform">
+            <input class="input" type="number" name="month" max="12" min="1">月
+            <input class="input" type="number" name="day" min="1" max="31">日<br/><br/>
+            <input id="input03" type="button" onclick="search()" value="搜索" >
+            </form>
+         </div>
+         <div id="div3">
+             <img src="images/load.gif" alt="查看其他星座">
+             <div id="div2">
+                  <img src="images/entrance.gif" id="middle" usemap="#usmap" alt="plants">
+                  <map name="usemap" id="usmap">
+                     <area shape="rect" coords="0 0 250 234" href="baiyangzuo.html" alt="白羊座">
+                     <area shape="rect" coords="250 0 500 234" href="page2.html" alt="双鱼座">
+                     <area shape="rect" coords="500 0 750 234" href="page3.html" alt="金牛座">
+                     <area shape="rect" coords="750 0 1000 234" href="page4.html" alt="天蝎座">
+                     <area shape="rect" coords="1000 0 1250 234" href="page5.html" alt="射手座">
+                     <area shape="rect" coords="1250 0 1486 234" href="page6.html" alt="处女座">
+                     <area shape="rect" coords="0 234 250 468" href="page7.html" alt="天秤座">
+                     <area shape="rect" coords="250 234 500 468" href="page8.html" alt="水瓶座">
+                     <area shape="rect" coords="500 234 750 468" href="page9.html" alt="狮子座">
+                     <area shape="rect" coords="750 234 1000 468" href="page10.html" alt="巨蟹座">
+                     <area shape="rect" coords="1000 234 1250 468" href="page11.html" alt="魔蝎座">
+                     <area shape="rect" coords="1250 234 1486 468" href="page12.html" alt="双子座">
+                  </map>
+             </div>
+         </div>
+    </section>
+    <footer>
+    <p id="footer">@lixiaonan</p>
+    </footer>
+</body>
+</html>
